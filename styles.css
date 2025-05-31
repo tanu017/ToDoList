@@ -1,0 +1,17 @@
+body {
+    color:black;
+}
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.task-div {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.flex-title {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
