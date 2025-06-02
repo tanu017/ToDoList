@@ -6,11 +6,18 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 60px;
 }
-.task-div {
+#task-div {
     align-items: center;
     text-align: center;
     justify-content: center;
     font-size: 40px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(20, 82, 108);
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
 }
 .flex-title {
     display: flex;
@@ -19,14 +26,44 @@ h1 {
 }
 #taskInput {
     border-radius: 12px;
+    margin-top: 2%;
     width: 50%;
     height: 40px;
     font-size: 25px;
 }
 .add-task {
     border-radius: 12px; 
-    border-color: azure; 
+    border: 2px solid black;
+    background-color: rgb(253, 250, 250);
+    color: black;
     height: 40px; 
     width: 140px; 
     font-size: 25px;
+    margin-left: 2px;
+    margin-top: 2%;
 }
+ol {
+    list-style-type: none; 
+    padding-left: 0;
+}
+li {
+    border: 2px solid rgb(20, 82, 108);
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    justify-items: left;
+    border-radius: 10px;
+}
+.LightMode {
+    background-color: white;
+    border: 2px solid black;
+    margin:1px;
+}
+.DarkMode {
+    background-color: white;
+    border: 2px solid black;
+    margin:1px;
+}
+
+
+

@@ -6,17 +6,17 @@
 </head>
 <body>
     <div class="flex-title">
-        <button onclick="lightMode()">
+        <button onclick="lightMode()" class="LightMode">
             <img src="https://static.thenounproject.com/png/4808961-200.png" alt="" height="40px" width="40px">
         </button>
-        <button onclick="darkMode()">
+        <button onclick="darkMode()" class="DarkMode">
             <img src="https://cdn2.iconfinder.com/data/icons/ui-minimalist-0-1-1/16/UI_Web_Moon_Night_Night_Mode_Dark-512.png" alt="" height="40px" width="40px">
         </button>
     </div>
     <h1>My To-Do List</h1>
-    <div class="task-div">
+    <div id="task-div">
         <input type="text" id="taskInput" placeholder="Enter task...">
-        <button onclick="addTask()" class="add-task">Add Task</button>
+        <button onclick="addTask()" class="add-task">Add task</button>
         <ol id="taskList"></ol>
         <script src="script.js"></script>
     </div>
