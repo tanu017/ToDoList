@@ -8,7 +8,7 @@ function addTask() {
     let deleteBtn = document.createElement("img");
     deleteBtn.src = "https://st2.depositphotos.com/1041273/5828/v/950/depositphotos_58283431-stock-illustration-trash-can-icon.jpg"; // Replace with your image URL
     deleteBtn.alt = "Delete";
-    deleteBtn.style.width = "21px"; 
+    deleteBtn.style.width = "20px"; 
     deleteBtn.style.cursor = "pointer";
 
     deleteBtn.onclick = function() {
