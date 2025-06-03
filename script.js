@@ -6,7 +6,7 @@ function addTask() {
     li.textContent = input;
     
     let deleteBtn = document.createElement("img");
-    deleteBtn.src = "https://st2.depositphotos.com/1041273/5828/v/950/depositphotos_58283431-stock-illustration-trash-can-icon.jpg"; // Replace with your image URL
+    deleteBtn.src = "https://st2.depositphotos.com/1041273/5828/v/950/depositphotos_58283431-stock-illustration-trash-can-icon.jpg";
     deleteBtn.alt = "Delete";
     deleteBtn.style.width = "20px"; 
     deleteBtn.style.cursor = "pointer";
@@ -14,16 +14,10 @@ function addTask() {
     deleteBtn.onclick = function() {
         li.remove();
     };
-
     li.style.display = "flex";
     li.style.justifyContent = "space-between";
     li.style.alignItems = "center";
     li.style.padding = "12px";
-    deleteBtn.style.color = "white";
-    deleteBtn.style.backgroundColor = "red";
-    deleteBtn.style.border = "2px solid black";
-    deleteBtn.style.borderRadius = "10px";
-    deleteBtn.style.fontSize = "20px";
 
     li.appendChild(deleteBtn);
     document.getElementById("taskList").appendChild(li);
