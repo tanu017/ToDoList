@@ -24,6 +24,12 @@ function addTask() {
     document.getElementById("taskInput").value = ""; 
 }
 
+document.getElementById("taskInput").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") { 
+        addTask(); 
+    }
+});
+
 function darkMode() {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "aquamarine";
